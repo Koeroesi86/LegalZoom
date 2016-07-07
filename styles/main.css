@@ -117,6 +117,7 @@ body {
 }
 
 h1 {
+    margin-top: 60px;
     font-family: 'Times New Roman', serif;
     font-size: 48px;
     text-align: center;
@@ -171,11 +172,12 @@ header .nav .dropdown-menu .dropdown-menu {
 /* Content specific */
 
 h1 .highlight-price {
+    font-size: 120%;
     color: #38cdad;
 }
 
-form {
-    margin-bottom: 90px;
+form h4 {
+    margin-top: 90px;
 }
 
 form .form-control, .input-group .form-control:first-child {
@@ -217,4 +219,18 @@ form .btn, form .input-group-btn:last-child>.btn {
 form .btn:hover, form .btn:focus, form .btn:active {
     background: #3bcfad;
     border-bottom-color: #3ab394;
+}
+
+.table-active, .table-active > td {
+    background-color: #f5f5f5;
+}
+
+.table-info, .table-info > td {
+    font-family: 'Graphik-Medium';
+    background-color: #99a8bd;
+    color:  #fff;
+}
+
+.text-xs-right {
+    text-align: right;
 }
